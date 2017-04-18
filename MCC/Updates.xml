@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../MCC/css/uncss.css"?>
+<Latest_News> 
+   <News> 
+       <name>Belgian Waffles</name> 
+			<description>Two of our famous Belgian Waffles with plenty of real maple syrup</description> 
+      </News> 
+   <News> 
+       <name>Strawberry Belgian Waffles</name> 
+           <description>Light Belgian waffles covered with strawberries and whipped cream</description> 
+    </News> 
+   <News> 
+       <name>Belgian Waffles</name> 
+			<description>Two of our famous Belgian Waffles with plenty of real maple syrup</description> 
+      </News> 
+   <News> 
+       <name>Strawberry Belgian Waffles</name> 
+           <description>Light Belgian waffles covered with strawberries and whipped cream</description> 
+    </News> 
+	<News> 
+       <name>Belgian Waffles</name> 
+			<description>Two of our famous Belgian Waffles with plenty of real maple syrup</description> 
+      </News> 
+   <News> 
+       <name>Strawberry Belgian Waffles</name> 
+           <description>Light Belgian waffles covered with strawberries and whipped cream</description> 
+    </News> 
+</Latest_News>
+
+
+
