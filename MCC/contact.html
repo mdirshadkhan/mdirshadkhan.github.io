@@ -46,33 +46,23 @@
   </div>
 </header>
 
-<section class="contact">
-        <div class="container">
-            <div class="row-fluid">
-               <!-- <div class="span4">-->
-                    
-                <hr>
-				<div class="center">
-					
-					<form id="contact_form" action="https://script.google.com/macros/s/AKfycbxOdnLZ2aZWukYHudBQATQc31PcaVkTiTJacgbGtwEe7uxauvWp/exec" method="POST" target="_blank" enctype="multipart/form-data">
-						<p><h4><strong>Send us Your Comments/Feedback</strong></h4></p>
-					<div class="row">
-						<label for="name">Your name:</label><br />
-						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-					</div>
-					<div class="row">
-						<label for="email">Your email:</label><br />
-						<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-					</div>
-					<div class="row">
-						<label for="message">Your message:</label><br />
-						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-					</div>
-					<input class="btn btn-primary btn-large" id="submit" type="submit"/>
-					</form>	
+<section id="contact1">
+	<div class="sectionheader">	<h1>CONTACT</h1>
+	</div>
+		<article>
+			<label for="checkcontact" class="contactbutton">
+				<div class="mail">
 				</div>
-				<p>&nbsp;</p>
-			</div>
+			</label>
+			<input id="checkcontact" type="checkbox">
+			<form id="contact_form" action="https://script.google.com/macros/s/AKfycbxOdnLZ2aZWukYHudBQATQc31PcaVkTiTJacgbGtwEe7uxauvWp/exec" method="POST" target="_blank" enctype="multipart/form-data">
+				<p class="input_wrapper"><input type="text" name="contact_nom" value=""  id ="contact_nom"><label for="contact_nom">NAME</label></p>
+				<p class="input_wrapper"><input type="text" name="contact_email" value=""  id ="contact_email"><label for="contact_email">EMAIL</label></p>
+				<p class="input_wrapper"><input type="text" name="contact_sujet" value=""  id ="contact_sujet"><label for="contact_sujet">SUBJECT</label></p>
+				<p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
+				<p class="submit_wrapper"><input type="submit" value="SUBMIT"></p>	
+			</form>	
+		</article>
 </section>
 <hr>	
 	<section id="bottom" class="main"> 
